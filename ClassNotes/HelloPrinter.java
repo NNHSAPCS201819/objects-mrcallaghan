@@ -64,7 +64,7 @@ public class HelloPrinter
          *      Use underscores to separate words
          */
         
-        int SPEED_OF_LIGHT = 3000000000;
+        int SPEED_OF_LIGHT = 300000000;
         
         /**
          * by convention, all other identifiers start with lowercase letter.
@@ -72,6 +72,35 @@ public class HelloPrinter
          */
         
         String firstName;
+        
+        /**
+         * This is a compile-time error. (This code doesn't even compile)
+         */
+        //System.ou.println( "Hello, World." );
+        
+        /**
+         * This is a run-time error. (The code compiles and runs, but generates an exception. (the program 
+         * crashes in most cases)
+         */
+        //System.out.println( 1/0 );
+        
+        /**
+         * This is also a run-time error. (compiles and runs, but doesn't produce the expected result, or outpu)
+         * More specifically, this is a logic error.
+         */
+        
+        System.out.println("Hello, Word");
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         
         
         
