@@ -90,27 +90,7 @@ public class HelloPrinter
          */
         
         System.out.println("Hello, Word");
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
+               
         
 
     }
